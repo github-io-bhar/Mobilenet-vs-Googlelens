@@ -1,7 +1,24 @@
 body {
     background-color: aqua;
 }
-#button_div {
+.button_div {
     text-align: center;
+}
+.result_para_tag {
+    box-shadow:  5px 5px 5px grey;
+    font-size: 20px;
+}
+.result_ans_tag {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 40px;
+}
+.result_main_tag {
+    box-shadow: 5px 5px 5px grey;
+    font-size: 60px;
+}
+ol {
+    padding-bottom:  20px;;
+}
+.space {
     padding-bottom: 20px;
 }

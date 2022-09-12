@@ -20,43 +20,45 @@
                 <img src="mobilenet.png" class="logo img-responsive">
             </h1>
             <ol>
-                <div class="test_image_and_result col-xs-12">
+                <div class="test_image_and_result col-xs-12 button_div">
                     <li class="col-sm-4 col-xs-12">
                         <b>Test Image - </b>
-                        <img id="img" class="img-responsive">
+                        <img src="ball.png" id="img" class="img-responsive">
                     </li>
                     <h5 class="col-sm-4 col-xs-12">
                         Output on <b>GOOGLE Lens</b>
-                        <span></span>
+                        <br>
+                        <span>
+                            <h3 class="btn btn-success result_para_tag">Object : </h3>
+                            <br>
+                            <h2 class="btn btn-info result_ans_tag"> Football </h2>
+                        </span>
                     </h5>
-                    <h5 class="col-sm-4 col-xs-12">
+                    <h5 class="col-sm-4 col-xs-12 space">
                         Output on <b>MobileNet</b>
-                        <span></span>
+                        <span>
+                            <br>
+                        <span>
+                            <h3 class="btn btn-success result_para_tag">Object : </h3>
+                            <br>
+                            <h2 class="btn btn-info result_ans_tag"> Ball </h2>
+                        </span>
                     </h5>
-                    <div class="mini_result col-xs-12">
-                        <h4>Result = </h4>
-                        <hr>
-                        <h4></h4>
-                    </div>
-                </div>
-                <br>
-            </ol>
-            <div id="button_div" class="col-xs-12">
-                <h4>Images to compare :-</h4>
-                <span>
-                    <button id="bottle" onclick="bottle();" class="btn btn-success">Bottle</button>
-                    <button id="ac" onclick="ac();" class="btn btn-success">Air Conditioner</button>
-                    <button id="glass" onclick="glass();" class="btn btn-success">Glass</button>
-                    <button id="shoes" onclick="shoes();" class="btn btn-success">Shoes</button>
-                    <button id="table" onclick="table();" class="btn btn-success">Table</button>
-                    <button id="ball" onclick="ball();" class="btn btn-success">Ball</button>
-                    <button id="key" onclick="key();" class="btn btn-success">Key</button>
-                    <button id="keyboard" onclick="keyboard();" class="btn btn-success">Keyboard</button>
-                    <button id="laptop" onclick="laptop();" class="btn btn-success">Laptop</button>
-                    <button id="school_bag" onclick="school_bag();" class="btn btn-success">School Bag</button>
                     <br>
-                </span>
-            </div>
+                    <div class="space col-xs-12 ">
+                        <h1 class="btn btn-warning result_main_tag">Main Answer : Football</h1>
+                    </div>
+                    <div class="space col-xs-12">
+                        <h1 class="btn btn-success result_para_tag">Result :- </h1>
+                    </div>
+                    <div class="btn btn-danger result_para_tag">
+                        <h4>GOOGLE Lens Is More Accurate And Takes Less Time</h4>
+                        <h3>Google Lens have predicted 4 of them more accurately and MobileNet was less accurate.</h3>
+                        <h1>So according to my study GOOGLE LENS is more accurate.</h1>
+                    </div>
+                    <hr>
+                </div>
+            </ol>
         </center>
     </body>
 </html>
